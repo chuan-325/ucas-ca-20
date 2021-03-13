@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a course note collection for **COMPUTER ARCHITECTURE (20fa)** at University of Chinese Academy of Sciences(UCAS), taught by [Weiwu Hu](http://people.ucas.ac.cn/~huweiwu) and [Menghao Su](https://chuan-325.github.io/ca-20fa/).
+This is a course note collection for **Computer Architecture (20fa)** at University of Chinese Academy of Sciences(UCAS), taught by [Weiwu Hu](http://people.ucas.ac.cn/~huweiwu) and [Menghao Su](https://chuan-325.github.io/ca-20fa/).
 
 <!-- Menghao Su's Homepage is missing -->
 

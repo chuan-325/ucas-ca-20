@@ -11,6 +11,10 @@
 
 > 参考案例: ppt 的翻页过程
 
+### 通用计算机系统结构的层次与界面
+
+![通用计算机系统结构的四个层次.](chap_01.assets/ch01-general-pc-arch.png){: style="height:320px" align=right}
+
 四个层次:
 
 - 应用程序
@@ -22,16 +26,7 @@
 
 - API (应用程序编程接口) 是建立生态的起点
 - ABI (应用程序二进制接口) 是应用程序访问计算机硬件及操作系统服务的接口
-- ISA (指令系统) 是软件兼容的关键,是生态建设的终点
-
-<div style="text-align:center">
-    <figure style="text-align:center">
-    <img src="https://raw.githubusercontent.com/chuan-325/ucas-ca-20/master/docs/content/chap_01.assets/ch01-general-pc-arch.png" alt="通用计算机系统结构的四个层次" style="zoom:60%;" />
-        <figcaption style="font-size :9pt">
-            通用计算机系统结构的四个层次
-        </figcaption>
-    </figure>
-</div>
+- ISA (指令系统) 是软件兼容的关键, 是生态建设的终点
 
 冯诺依曼结构的五个组成部分: 控制器, 运算器, 存储器, 输入设备, 输出设备
 
@@ -60,11 +55,11 @@ $$
 - 每条指令需要的拍数 (CPI) : 编译器, 指令功能, 微结构设计
 - 每拍需要的时间 ($\frac{1}{f}$) :微结构, 电路设计, 工艺
 
-此外, 在一个系统中不同层次有不同的性能标准,很难用一项单一指标刻画计算机性能的高低.
+此外, 在一个系统中不同层次有不同的性能标准, 很难用一项单一指标刻画计算机性能的高低.
 
 IPC 是什么? Instruction per cycle 每周期执行指令数, 它是 CPI 的倒数.
 
-- 影响 IPC 的因素: 处理器的微结构设计 (单发射/多发射,转移猜测策略,存储层次设计)
+- 影响 IPC 的因素: 处理器的微结构设计 (单发射/多发射, 转移猜测策略, 存储层次设计)
 
 ### 价格
 
@@ -72,9 +67,9 @@ IPC 是什么? Instruction per cycle 每周期执行指令数, 它是 CPI 的倒
 
 ### 功耗
 
-芯片功耗是计算机功耗的重要组成部分,主要由晶体管产生.
+芯片功耗是计算机功耗的重要组成部分, 主要由晶体管产生.
 
-对于一个由 PMOS 管和 NMOS 管组成的反相器,功耗主要分为:
+对于一个由 PMOS 管和 NMOS 管组成的反相器, 功耗主要分为:
 
 - 开关功耗:电容充放电
 - 短路功耗: P 管和 N 管在开闭过程中短路
@@ -110,7 +105,10 @@ ExTime_{old}\times
 \left[
     (1-F_{enhanced}) + \frac{F_{enhanced}}{SpeedUp_{enhanced}}
      \right]
-=ExTime_{new},\\
+=ExTime_{new},
+$$
+
+$$
 SpeedUp_{overall}=\frac{ExTime_{old}}{ExTime_{new}},
 $$
 
