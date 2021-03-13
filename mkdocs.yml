@@ -1,0 +1,30 @@
+site_name: Notes for Computer Architecture
+repo_url: https://github.com/chuan-325/ca-20fa
+repo_name: chuan-325/ca-20fa
+nav:
+  - Home: index.md
+  - Chapter 1 引言: chap_01.md
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: teal
+  language: zh
+  features:
+    - search.suggest
+    - search.highlight
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - attr_list
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+plugins:
+  - search:
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
